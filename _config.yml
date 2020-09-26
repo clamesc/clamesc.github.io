@@ -1,0 +1,30 @@
+author: Claus
+title: Whatever you want
+email: youremail@someserver.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Describe it
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://clamesc.github.io/" # the base hostname & protocol for your site,
+twitter_username:
+github_username:  clamesc
+linkedin_username:
+so_username:
+fb_username:
+ig_username:
+# Build settings
+markdown: kramdown
+#theme: minima
+plugins:
+  - jekyll-feed
+disqus_shortname:
+google_analytics:
+rawgitfiles:
+mathjax: true
+pages:
+  - index.md
+  - about.md
+  - blog.md
+header_pages:
+  - index.md
+  - about.md
+  - blog.md
